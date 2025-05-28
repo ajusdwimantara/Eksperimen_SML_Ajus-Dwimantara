@@ -30,8 +30,9 @@ jobs:
 
       # Run the preprocessing script
       - name: Run preprocessing script
+        working-directory: preprocessing
         run: |
-          python preprocessing/automate_ajus-dwimantara.py
+          python automate_ajus-dwimantara.py
 
       # Commit and push preprocessed dataset
       - name: Commit and push preprocessed dataset
