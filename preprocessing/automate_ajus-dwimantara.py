@@ -1,9 +1,5 @@
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from datetime import datetime
-from sklearn.preprocessing import StandardScaler
-from sklearn.preprocessing import OneHotEncoder
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
 
 ### DATA LOADING ###
 df = pd.read_csv('../fraud_raw.csv')
